@@ -1,0 +1,357 @@
+/*
+Theme Name: Lovely Nails
+Theme URI: http://www.lovelynils.com
+Description: Made for Lovely Nails 
+Version: 1.0
+Author: Tairema Dailey
+Author URI: http://www.pinkcandydesigns.net/
+
+*/
+
+*{
+	margin:0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	
+}
+
+/*Body*/
+
+body{
+	background:url(../images/bg.jpg);
+	font-family:CaviarDreamsRegular;
+	font-size:16px;
+	color:#54464f;
+
+}
+
+header{
+	width: 614px;
+	height: 140px;
+	margin-bottom: 10px;
+}
+
+#wrapper{
+	width: 990px;
+	position:relative;
+	margin-left:auto;
+	margin-right: auto;
+	
+}
+
+#content{
+	width: 980px;
+	height: 778px;
+	background-image:url(../images/content.png);
+	background-repeat:no-repeat;
+	
+	
+	
+}
+
+
+
+.displayedh{
+	display:block;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+
+/*Navigation*/
+
+#nav{
+	position:relative;
+	width:236px;
+	top: 50px;
+}
+
+
+ul#pageitem-menu{
+	width: 236px;
+	list-style: none;
+	
+}
+
+ul#pageitem-menu li a{
+	display: block;
+	background-image:url(../images/navsprite.png);
+	text-indent: -9999px;
+}
+
+ul#pageitem-menu li a.home{
+	width: 236px;
+	height: 80px;
+	background-position: 0px 0px;
+	
+}
+
+ul#pageitem-menu li a.home:hover{
+	width: 236px;
+	height: 80px;
+	background-position: 0px -90px;
+	
+}
+
+ul#pageitem-menu li a.about{
+	width: 236px;
+	height: 73px;
+	background-position: 0px -180px;
+	
+}
+
+ul#pageitem-menu li a.about:hover{
+	width: 236px;
+	height: 73px;
+	background-position: 0px -263px;
+	
+}
+
+ul#pageitem-menu li a.prices{
+	width: 236px;
+	height: 73px;
+	background-position: 0px -346px;
+	
+}
+
+ul#pageitem-menu li a.prices:hover{
+	width: 236px;
+	height: 73px;
+	background-position: 0px -429px;
+	
+}
+
+ul#pageitem-menu li a.gallery{
+	width: 236px;
+	height: 71px;
+	background-position: 0px -512px;
+	
+}
+
+ul#pageitem-menu li a.gallery:hover{
+	width: 236px;
+	height: 71px;
+	background-position: 0px -593px;
+	
+}
+
+ul#pageitem-menu li a.directions{
+	width: 236px;
+	height: 68px;
+	background-position: 0px -674px;
+	
+}
+
+ul#pageitem-menu li a.directions:hover{
+	width: 236px;
+	height: 68px;
+	background-position: 0px -752px;
+	
+}
+
+ul#pageitem-menu li a.contact{
+	width: 236px;
+	height: 69px;
+	background-position: 0px -830px;
+	
+}
+
+ul#pageitem-menu li a.contact:hover{
+	width: 236px;
+	height: 69px;
+	background-position: 0px -909px;
+	
+}
+
+
+
+/*Content Side*/
+#contentright{
+	border: thin dotted #eeb5a9;	
+	width: 630px;
+	height: 650px;
+	position:relative;
+	top: -410px;
+	left: 305px;
+	background:#e5b4c1;
+	opacity: 0.6;
+	overflow: auto;
+	padding: 10px;
+
+}
+
+.homeimg{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	opacity:100% !important;
+	
+}
+/*Home Gallery*/
+
+/*Contact Form*/
+#contact {
+	width: 430px; 
+	margin: 60px auto; 
+	padding: 60px 30px;
+	background: #e8a5a5; 
+	border: 1px solid #54464f;
+	-moz-box-shadow: 0px 0px 8px #af8984;
+	-webkit-box-shadow: 0px 0px 8px #af8984;
+}
+
+label {
+	float: left; 
+	clear: left; 
+	margin: 11px 20px 0 0; 
+	width: 95px;
+	text-align: right; 
+	font-size: 16px;  
+	text-shadow: 0px 1px 0px #f2f2f2;
+}
+
+input {
+	width: 260px; 
+	height: 35px; 
+	padding: 5px 20px 0px 20px; 
+	margin: 0 0 20px 0; 
+	background: #fbedeb;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0px 1px 0px #f2f2f2;
+	-webkit-box-shadow: 0px 1px 0px #f2f2f2;
+	 
+}
+	
+textarea {
+	width: 260px; 
+	height: 170px; 
+	padding: 12px 20px 0px 20px; 
+	margin: 0 0 20px 0; 
+	background: #fbedeb;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0px 1px 0px #f2f2f2;
+	-webkit-box-shadow: 0px 1px 0px #f2f2f2;
+	
+}
+	
+input:focus, textarea:focus {
+	background: #eebdb7;
+
+}
+
+input[type=submit] {
+	width: 185px; 
+	height: 52px; 
+	float: right; 
+	padding: 10px 15px; 
+	margin: 0 15px 0 0;
+	-moz-box-shadow: 0px 0px 5px #a4a4a4;
+	-webkit-box-shadow: 0px 0px 5px #a4a4a4;
+	border: 1px solid #9a9b9b;
+	cursor: pointer;
+}
+
+reset{
+	width: 	85px; 
+	height: 52px; 
+	float: right; 
+	padding: 10px 15px; 
+	margin: 15px;
+	-moz-box-shadow: 0px 0px 5px #a4a4a4;
+	-webkit-box-shadow: 0px 0px 5px #a4a4a4;
+	border: 1px solid #9a9b9b;
+	cursor: pointer;	
+	
+	
+}
+
+/*Footer*/
+
+footer{
+	display:block;
+	text-align:right;
+	margin-top: 5px;
+}
+
+.footer{
+	position:relative;
+	top: -70px;
+	left: -90px;
+	color:#FFF;
+}
+
+.footer a:link, a:visited{
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+/*Styles*/
+@font-face {
+    font-family: 'CaviarDreamsRegular';
+    src: url('../assets/Caviar-Dreams-fontfacekit/CaviarDreams-webfont.eot');
+    src: url('../assets/Caviar-Dreams-fontfacekit/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/Caviar-Dreams-fontfacekit/CaviarDreams-webfont.woff') format('woff'),
+         url('../assets/Caviar-Dreams-fontfacekit/CaviarDreams-webfont.ttf') format('truetype'),
+         url('../assets/Caviar-Dreams-fontfacekit/CaviarDreams-webfont.svg#CaviarDreamsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CaviarDreamsBold';
+    src: url('../assets/Caviar-Dreams-fontfacekit/Caviar_Dreams_Bold-webfont.eot');
+    src: url('../assets/Caviar-Dreams-fontfacekit/Caviar_Dreams_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/Caviar-Dreams-fontfacekit/Caviar_Dreams_Bold-webfont.woff') format('woff'),
+         url('../assets/Caviar-Dreams-fontfacekit/Caviar_Dreams_Bold-webfont.ttf') format('truetype'),
+         url('../assets/Caviar-Dreams-fontfacekit/Caviar_Dreams_Bold-webfont.svg#CaviarDreamsBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+ul{
+	list-style-type:circle;
+	
+}
+
+h1{
+	text-align:center;
+	font-size:18px;
+	font-family: CaviarDreamsBold;
+	text-decoration:underline;
+}
+
+.aboutimg{
+	display: block;
+	margin: auto;
+	border: thin solid #666;
+	box-shadow: 10px 10px 5px #666;
+	-moz-box-shadow: 10px 10px 5px #666;
+	-webkit-box-shadow:	10px 10px 5px #666;
+}
+
+.img{
+	border: thin double #666;	
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	padding: 15px;
+}
+
+.gallsection{
+	margin-left:auto;
+	margin-right:auto;
+	padding: 10px;
+	position:relative;
+	
+}
